@@ -1,5 +1,7 @@
 ### The Habitat provisioner has been moved into core Terraform (https://github.com/hashicorp/terraform/tree/master/builtin/provisioners/habitat)
 
+## This is a work in progress, development repository to add more features into Habitat terraform provisioner
+
 # terraform-provisioner-habitat
 A [Habitat](https://habitat.sh) provisioner for [Terraform](https://terraform.io)
 
