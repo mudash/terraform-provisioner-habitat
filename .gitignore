@@ -1,6 +1,26 @@
-terraform-provisioner-habitat
-dist/
-example/
-test/examples/**/*.tfstate
-test/examples/**/*.tfstate.backup
-scripts/*.tfstate*
+#  Local .terraform directories
+**/.terraform/*
+
+# .tfstate files
+*.tfstate
+*.tfstate.*
+
+# .tfvars files
+*.tfvars
+
+# Golang ignore settings
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binary, built with `go test -c`
+*.test
+
+# Output of the go coverage tool, specifically when used with LiteIDE
+*.out
+
+## Mac file
+.DS_Store
